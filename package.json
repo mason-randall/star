@@ -1,5 +1,5 @@
 {
-  "name": "star",
+  "name": "@mason-randall/star",
   "version": "0.0.1",
   "description": "Works with the Star Micronics SDK to print to Star Printers",
   "main": "dist/plugin.cjs.js",
