@@ -12,11 +12,10 @@ public class StarPlugin extends Plugin {
     private Star implementation = new Star();
 
     @PluginMethod
-    public void echo(PluginCall call) {
+    public void print(PluginCall call) {
         String value = call.getString("value");
 
         JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
-        call.resolve(ret);
+        ret.put("value", implementation.print(value, ret));
     }
 }
