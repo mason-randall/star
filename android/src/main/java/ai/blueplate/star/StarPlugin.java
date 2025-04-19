@@ -18,4 +18,11 @@ public class StarPlugin extends Plugin {
         JSObject ret = new JSObject();
         ret.put("value", implementation.print(value, ret));
     }
+
+    @PluginMethod
+    public void openDrawer(PluginCall call) {
+
+        JSObject ret = new JSObject();
+        ret.put("value", implementation.openDrawer(ret);
+    }
 }
