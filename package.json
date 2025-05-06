@@ -1,6 +1,6 @@
 {
   "name": "@mason-randall/star",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Works with the Star Micronics SDK to print to Star Printers",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
